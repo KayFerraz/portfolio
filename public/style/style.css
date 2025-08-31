@@ -1,0 +1,55 @@
+*{
+    background-color: rgb(138, 0, 85);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.imagemkay{
+    border-radius: 200px;
+    display:  block;
+    margin: 0 auto;
+}
+.just{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sombraText{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.cardLinguagem{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(219, 77, 184);
+    margin: 10cm;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    border-radius: 40px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.textCard{
+    font-size: large;
+    display: flex;
+    color: black;
+    font-weight: 500;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2cm;
+    margin-bottom: 2cm;
+    background-color: transparent; 
+    text-align: justify;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+.imagem{
+    background-color: rgb(219, 77, 184);
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 0.5cm;
+    margin-bottom: 1px;
+}
