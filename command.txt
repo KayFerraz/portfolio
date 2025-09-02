@@ -11,3 +11,39 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/KayFerraz/portfolio.git
 git push -u origin main
+
+
+🚀 Roteiro Git para abrir e trabalhar no projeto (cola rápida)
+
+1. Abrir o VS Code na pasta do projeto:
+   cd "C:\Users\kayan\OneDrive\Área de Trabalho\port"
+   code .
+
+2. Verificar status do repositório:
+   git status
+
+3. Atualizar o projeto antes de começar:
+   git pull origin main --rebase
+
+4. Fazer alterações no código normalmente.
+
+5. Salvar alterações no Git (commit):
+   git add .
+   git commit -m "Descrição do que alterei"
+
+6. Enviar alterações para o GitHub:
+   git push origin main
+
+---------------------------------------
+🔄 Fluxo diário resumido:
+- git pull origin main --rebase  (antes de começar)
+- git add .
+- git commit -m "mensagem"
+- git push origin main
+
+---------------------------------------
+💡 Dica extra:
+Se quiser guardar mudanças temporariamente (sem commit):
+   git stash
+E para restaurar depois:
+   git stash pop
