@@ -1,55 +1,90 @@
-*{
+* {
     background-color: rgb(138, 0, 85);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
+    
 }
 
-.imagemkay{
-    border-radius: 200px;
-    display:  block;
+.imagemkay {
+    border-radius: 50%;
+    display: block;
     margin: 0 auto;
+    max-width: 200px; 
+    width: 60%; 
+    height: auto;
 }
-.just{
+
+.just {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.sombraText{
+
+.sombraText {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-.cardLinguagem{
+.cardContainer{
+    display: flex;           
+    justify-content: left; 
+
+    flex-wrap: wrap;
+}
+.cardLinguagem {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
     background-color: rgb(219, 77, 184);
-    margin: 10cm;
-    margin-top: 1cm;
-    margin-bottom: 1cm;
-    border-radius: 40px;
+    margin: 2rem;
+    padding: 1.5rem;
+    border-radius: 50px;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+
+    width: 150px; 
+    height: 100px;
 }
-.textCard{
-    font-size: large;
+
+.textCard {
+    font-size: 1rem;
     display: flex;
     color: black;
     font-weight: 500;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin: 2cm;
-    margin-bottom: 2cm;
+
+    margin: 1rem;
     background-color: transparent; 
     text-align: justify;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px;
 }
-.imagem{
-    background-color: rgb(219, 77, 184);
-    height: 150px;
-    width: 150px;
+.postman {
+    background-color: transparent; 
+    width: 70%;
+    max-width: 200px;
+    height: auto;
     border-radius: 10px;
-    margin: 0.5cm;
-    margin-bottom: 1px;
+    margin: 0.5rem;
 }
+.logo20 {
+    display: block;
+    margin: 0.2rem auto;
+    width: 40%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.logo40 {
+    display: block;
+    margin: 0.2rem auto;
+    width: 60%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.fundoImagem{
+    background-color: transparent;
+    
+}
+
