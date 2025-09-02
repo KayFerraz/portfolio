@@ -1,22 +1,88 @@
 * {
-    background-color: rgb(138, 0, 85);
+    background-color: rgb(33, 14, 58);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     
 }
-
-.imagemkay {
-    border-radius: 50%;
-    display: block;
+.menubar{
+    display: flex;
+    height: 50px;
+    width:100%;
     margin: 0 auto;
-    max-width: 200px; 
-    width: 60%; 
-    height: auto;
+    padding: 0 auto;
+    justify-content: center;    
+    align-items: center;
+    background-color: rgb(62, 5, 116);
+    background-color: transparent;
+}
+
+.imgFundo{
+     width: 100%;
+  height: auto;
+  display: block;
+}
+
+.cover{
+  position: relative;
+  text-align: center;
+}
+.nomeK{
+    position: absolute;
+    top: 20%;       
+    left: 10%;     
+    background-color: transparent;
+    color: white;   
+    font-size: 2rem;
+    margin: 2px;
+    font-weight: bold;
+}
+.nomeK.dev{
+    left: 10%;
+    top: 25%;
+    font-size: 1rem;
+}
+.textMenu{
+    margin: 1cm;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: larger;
+    font-weight: 40;
+}
+
+.textMenu:hover {
+  color: #c77dff;         
+  transition: 0.3s;        
+}
+.divK{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2cm;
+}
+.imagemkay {
+    border-radius: 10%;
+    display: grid;
+    max-width: 250px; 
+    width: 80%; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.textKay{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    margin: 2cm;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: transparent;
 }
 
 .just {
     display: flex;
     align-items: center;
+    flex-direction: row;
     justify-content: center;
 }
 
@@ -33,7 +99,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     align-items: center;
-    background-color: rgb(219, 77, 184);
+    background-color: rgb(131, 118, 167);
     margin: 2rem;
     padding: 1.5rem;
     border-radius: 50px;
@@ -43,19 +109,27 @@
     height: 100px;
 }
 
-.textCard {
-    font-size: 1rem;
-    display: flex;
-    color: black;
-    font-weight: 500;
-    flex-direction: column;
+.textCard{
+    margin: 1cm;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 2.0rem;
+    font-weight: 600;
+    text-align: center;
     align-items: center;
+}
 
-    margin: 1rem;
-    background-color: transparent; 
-    text-align: justify;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 10px;
+.textCard:hover {
+  color: #c77dff;         
+  transition: 0.3s;        
+}
+.divGithub{
+    margin: 4cm;
+    align-items: center;
+    text-align: center;
 }
 .postman {
     background-color: transparent; 
@@ -64,17 +138,9 @@
     height: auto;
     border-radius: 10px;
     margin: 0.5rem;
+    
 }
 .logo20 {
-    display: block;
-    margin: 0.2rem auto;
-    width: 40%;
-    max-width: 200px;
-    height: auto;
-    border-radius: 10px;
-    background-color: transparent;
-}
-.logo40 {
     display: block;
     margin: 0.2rem auto;
     width: 60%;
@@ -83,8 +149,21 @@
     border-radius: 10px;
     background-color: transparent;
 }
+.logo40 {
+    display: block;
+    margin: 0.2rem auto;
+    width: 80%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.logo40.c{
+    width: 110%;
+    max-width: 200px;
+}
 .fundoImagem{
     background-color: transparent;
-    
+    width: 100%;
 }
 
