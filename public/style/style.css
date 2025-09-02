@@ -108,7 +108,11 @@
     width: 150px; 
     height: 100px;
 }
-
+.cardLinguagem:hover {
+  color: #c77dff;         
+  transition: 0.4s;
+  margin: 1.2rem;            
+}
 .textCard{
     margin: 1cm;
     background-color: transparent;
@@ -124,7 +128,14 @@
 
 .textCard:hover {
   color: #c77dff;         
-  transition: 0.3s;        
+  transition: 0.5s;
+  margin: 1.2rem;         
+}
+.textCard.cont{
+    margin-top: 3cm;
+}
+.textCard.bot{
+    margin-bottom: 3cm;
 }
 .divGithub{
     margin: 4cm;
@@ -162,8 +173,14 @@
     width: 110%;
     max-width: 200px;
 }
+
 .fundoImagem{
     background-color: transparent;
     width: 100%;
 }
-
+.contato{
+    width: 5%;
+    height: 20%;
+    display: flexbox;
+    
+}
