@@ -2,6 +2,8 @@
     background-color: rgb(33, 14, 58);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
+    border: 0;
+    margin: 0;
     
 }
 .menubar{
@@ -44,7 +46,8 @@
     font-size: 1rem;
 }
 .textMenu{
-    margin: 1cm;
+    margin: 3rem;
+    text-align: center;
     background-color: transparent;
     color: white;
     text-decoration: none;
@@ -56,7 +59,10 @@
 
 .textMenu:hover {
   color: #c77dff;         
-  transition: 0.3s;        
+  transition: 0.3s;     
+  /*margin: 20px;
+  width: 2px;
+  background-color: aliceblue;*/   
 }
 .divK{
     display: flex;
@@ -180,9 +186,34 @@
     background-color: transparent;
     width: 100%;
 }
-.contato{
-    width: 5%;
-    height: 20%;
-    display: flexbox;
-    
+#contato {
+    display: flex;
+    justify-content: center; 
+    align-items: center;        
+    flex-wrap: wrap;        
+}
+.contato {
+    width: 28px;  
+    height: 25px;
+    vertical-align: middle; 
+    margin: 0 auto;
+}
+.tabela {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: violet;
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;       
+    text-align: center; 
+    font-size: large;
+    margin-bottom:  14%;
+}
+.tabela th, .tabela td {
+    border: 0.1rem solid #ddd;
+    padding: 1rem;
+    text-align: center;
+}
+.tabela th {
+    background-color: #491d6b;
+    color: white;
 }
