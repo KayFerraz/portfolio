@@ -217,3 +217,8 @@
     background-color: #491d6b;
     color: white;
 }
+ul.textMenu {
+    list-style-position: inside;
+    text-align: center;
+    padding: 0;
+}
