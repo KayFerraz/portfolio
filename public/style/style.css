@@ -26,28 +26,18 @@
     *{
           font-size: 14px;
     }
-    .nomeK{ position: relative;
-            font-size: 1.5rem;
-            display: grid;
-            margin: 5rem;
-            width: 90%;
-            text-align: justify;
-    }
-    .just{  position: relative;
-            font-size: 12px;
+    .just{  
+            font-size: 1.2rem;
             display: flex;
-            margin: 2rem;
-            margin-top: 2cm;
+            align-items: center;
             justify-content: center;
-            flex-direction: column;
+            margin: 5px;
+            text-align: center;
     }
     .dev{
-        display: none
-    }
-    .cardLinguagem {
-          width: 40px; 
-          height: 50px;
-          font-size: 12px;
+        display: none;
+        top: 20%;
+        left: 10%;
     }
     .cover{
           margin-top: 2rem;
@@ -63,35 +53,37 @@
             font-size: 10px;
             margin: 0%;
             text-align: justify;
+            
     }
-     .divK {
-        flex-direction: column; 
-        margin: 1rem;           
-        align-items: center;    
-        justify-content: center;
-        gap: 0.5rem;           
+     
+    .imagemkay {
+        width: 50%;
+        max-width: 150px;
+        margin: 0rem;
     }
-
-    .textKay {
-        font-size: 16px;        
-        margin: 1rem;           
-        justify-content: center;
-        align-items: center;    
+    .textKay{
+        font-size: 14px;
+        margin: 0rem;
         text-align: justify;
     }
-
-    .imagemkay {
-        width: 60%;            
-        max-width: 150px;       
-        margin: 0rem ;    
+    .divK{
+        margin: 0rem;
+       align-items: center;
+    } 
+    .cardLinguagem{
+        width: auto; 
+        height: auto;
+        margin: 0.5rem;
+        padding: 1rem;
+        border-radius: 30px;
     }
+    
 }
 
 .imgFundo{
-     width: 100%;
+  width: 100%;
   height: 100%;
-  margin-left: -1px;
-
+  margin-left: 0px auto;
   display: block;
 }
 @media only screen and (max-width: 600px) {
@@ -104,30 +96,26 @@
   position: relative;
   text-align: center;
 }
+
 .nomeK{
-    position: absolute;
-    top: 20%;       
-    left: 10%;     
+    justify-content: flex-start;
     background-color: transparent;
-    color: white;   
-    font-size: 2rem;
-    margin: 2px;
-    font-weight: bold;
-}
-.nomeK.dev{
-    left: 10%;
-    top: 25%;
-    font-size: 1rem;
+    top: auto;
+    position: relative;
+    display: grid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 20;
 }
 .textMenu{
-    margin: 3rem;
+    margin: 1.9rem;
     text-align: center;
     background-color: transparent;
     color: white;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    font-size: larger;
+    font-size: 1.2rem;
     font-weight: 40;
 }
 
@@ -139,14 +127,15 @@
   background-color: aliceblue;*/   
 }
 .divK{
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     margin: 2cm;
 }
 .imagemkay {
     border-radius: 10%;
-    display: grid;
+    display: block;
+    margin: 0 auto;
     max-width: 250px; 
     width: 80%; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -154,7 +143,7 @@
 .textKay{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
-    margin: 2cm;
+    margin: 2cm auto;
     text-align: justify;
     font-size: 20px;
     font-weight: 500;
@@ -164,7 +153,6 @@
 .just {
     display: flex;
     align-items: center;
-    flex-direction: row;
     justify-content: center;
 }
 
@@ -179,7 +167,7 @@
 }
 .cardLinguagem {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    display: flex;
+    display: grid;
     align-items: center;
     background-color: rgb(131, 118, 167);
     margin: 2rem;
@@ -220,7 +208,8 @@
     margin-bottom: 3cm;
 }
 .divGithub{
-    margin: 4cm;
+    display: block;
+    margin: 4cm auto;
     align-items: center;
     text-align: center;
 }
