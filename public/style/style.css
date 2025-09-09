@@ -18,12 +18,86 @@
     background-color: transparent;
 }
 
+@media only screen and (max-width: 600px) {
+    .menubar {
+        display: none; 
+        font-size: 14px;
+    }
+    *{
+          font-size: 14px;
+    }
+    .nomeK{ position: relative;
+            font-size: 1.5rem;
+            display: grid;
+            margin: 5rem;
+            width: 90%;
+            text-align: justify;
+    }
+    .just{  position: relative;
+            font-size: 12px;
+            display: flex;
+            margin: 2rem;
+            margin-top: 2cm;
+            justify-content: center;
+            flex-direction: column;
+    }
+    .dev{
+        display: none
+    }
+    .cardLinguagem {
+          width: 40px; 
+          height: 50px;
+          font-size: 12px;
+    }
+    .cover{
+          margin-top: 2rem;
+          height: auto;
+            width: 100%;
+    }
+    .textCard{
+            font-size: 10px;
+            margin: 0%;
+            text-align: justify;
+    }
+    .divGithub{
+            font-size: 10px;
+            margin: 0%;
+            text-align: justify;
+    }
+     .divK {
+        flex-direction: column; 
+        margin: 1rem;           
+        align-items: center;    
+        justify-content: center;
+        gap: 0.5rem;           
+    }
+
+    .textKay {
+        font-size: 16px;        
+        margin: 1rem;           
+        justify-content: center;
+        align-items: center;    
+        text-align: justify;
+    }
+
+    .imagemkay {
+        width: 60%;            
+        max-width: 150px;       
+        margin: 0rem ;    
+    }
+}
+
 .imgFundo{
      width: 100%;
   height: 100%;
   margin-left: -1px;
 
   display: block;
+}
+@media only screen and (max-width: 600px) {
+    .imgFundo {
+        display: none; 
+    }
 }
 
 .cover{
