@@ -1,5 +1,5 @@
-*https://kayferraz.github.io/portfolio/public/src/ *
-# Portfólio – Kayanne Procópio Ferraz de Souza
+
+# Portfólio
 
 Bem-vindo ao portfólio online de **Kayanne Procópio Ferraz de Souza**, estudante de Ciência da Computação apaixonada por tecnologia!
 
